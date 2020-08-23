@@ -1,0 +1,196 @@
+/* start all */
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* end all */
+
+
+/* start uper bar */
+
+.upper-bar {
+    background-color: cadetblue;
+    color: white;
+}
+
+.upper-bar .container span {
+    color: white;
+    padding: 2px;
+    display: inline-block;
+    border: 0.5px solid greenyellow;
+    margin: 5px;
+}
+
+.us {
+    float: right;
+    cursor: pointer;
+}
+
+
+/* end uper bar */
+
+
+/* start cards */
+
+.card {
+    margin: 7px;
+    padding: 7px;
+}
+
+
+/* end cards */
+
+
+/* start navbar */
+
+.navbar-nav {
+    padding-left: 480px;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* end navbar */
+
+
+/* start slider */
+
+#carouselExampleCaptions {
+    width: 100%;
+    height: fit-content;
+    margin: 30px auto;
+}
+
+.carousel-control-prev {
+    background-color: #eeee;
+    color: black;
+}
+
+.carousel-control-next {
+    background-color: #eeee;
+    color: black;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.d-block {
+    height: 100%;
+}
+
+
+/* end slider */
+
+
+/* start over viwe */
+
+.over {
+    line-height: 35px;
+}
+
+
+/* end over viwe */
+
+
+/* start choose us*/
+
+.why {
+    line-height: 35px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.why .container {
+    padding: 30px;
+}
+
+
+/* end choose us */
+
+
+/* start services */
+
+.serv i {
+    color: cadetblue;
+}
+
+
+/* end services */
+
+
+/* start footer */
+
+footer {
+    background-color: lightslategrey;
+    z-index: 1;
+    padding: 30px;
+    color: white;
+}
+
+.row .list-unstyled li a {
+    color: white;
+}
+
+.footer-copyright {
+    background-color: #001d4e;
+    color: white;
+}
+
+.footer-copyright a {
+    color: white;
+}
+
+
+/* end footer */
+
+
+/* start media */
+
+@media(max-width: 576px) {
+    .us {
+        float: none;
+        margin-left: 120px;
+        margin-top: 5px;
+    }
+    .navbar-toggler {
+        margin-left: 80px;
+    }
+    .card {
+        margin: 20px;
+        padding: 7px;
+    }
+    .wy .container h2 {
+        line-height: 50px;
+    }
+    .in {
+        margin-bottom: 30px;
+    }
+    .lol {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .card-body {
+        padding: 7px;
+        margin: 20px;
+    }
+}
+
+
+/* end media */
